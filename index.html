@@ -9,11 +9,10 @@
 </head>
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg" id="BarraNav"> <!--No se como cambiarle el color de fondo a la barra de nav-->
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg p-3 mb-2 bg-primary">
                     <a class="navbar-brand" href="#">
-                        <img src="https://cdn-icons-png.flaticon.com/512/3712/3712868.png" width="100px" height="100px">
-                        <h1> SECH </h1>
+                        <img  class="p-0 mb-0" src="https://cdn-icons-png.flaticon.com/512/3712/3712868.png" width="100px" height="100px">
+                        <h1 class="display-1"> SECH </h1>
                     </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -22,37 +21,56 @@
                 <div class="collapse navbar-collapse menu-barra" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#sobremi">Sobre Mí</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#sobremi">
+                                <p>Sobre Mí</p>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Propuestas">Propuestas</a>
+                            <a class="nav-link text-white display-2" href="#Propuestas">
+                                <p>Propuestas</p>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Preguntas">Preguntas</a>
+                            <a class="nav-link text-white display-2" href="#Preguntas">
+                                <p>Preguntas</p>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Planes">Planes</a>
+                            <a class="nav-link text-white display-2" href="#Planes">
+                                <p>Planes</p>
+                            </a>
                         </li>
                     </ul>
                 </div>    
             </div>
         </nav>
-        <div id="Sobremi" class="row h-100 bg-"> <!-- No se como ponerle el fondo que quiero -->
+        <div class="row h-90 p-5 mb-0 bg-dark text-white">
             <h2> Sobre Mí </h2> <!--No logre ponerle la fuente que quiero y tampoco centrarlo-->
+            <p>Me gusta presentarme como un joven profesional de relaciones públicas, marketing digital, publicidad digital y desarrollo web
+                apasionado por la tecnología y las tendencias en constante cambio que tiene este mundo y cómo aplicarlas exitosamente en negocios y personas.
+                Disfruto mucho mi trabajo y mis pilares son la creatividad, calidad y constancia.</p>
         </div>
-        <div id="Propuestas" class="row h-100"> <!-- No se como ponerle el fondo que quiero -->
-            <div class="h-100   col-lg-4 col-md-8 col-sm-12">
-                <h2> Propuestas </h2> <!--No logre ponerle la fuente que quiero y tampoco centrarlo-->
-            </div>
-            <div id="Preguntas"class="h-100   col-lg-4 col-md-2 col-sm-12"> <!-- No se como ponerle el fondo que quiero -->
-                <h2> Preguntas </h2> <!--No logre ponerle la fuente que quiero y tampoco centrarlo-->
-            </div>
-            <div id="Planes"class="h-100  col-lg-4 col-md-2 col-sm-12"> <!-- No se como ponerle el fondo que quiero -->
-                <h2> Planes </h2> <!--No logre ponerle la fuente que quiero y tampoco centrarlo-->
-            </div>
+        <div class="row h-80 bg-danger text-white col-el-4 col-lg-4 col-md-8 col-sm-1 p-5"> <!-- No se como ponerle el fondo que quiero -->
+            <h2> Propuestas </h2> <!--No logre ponerle la fuente que quiero y tampoco centrarlo-->
+        </div>
+        <div class="row h-80 bg-secondary text-white col-el-4 col-lg-4 col-md-8 col-sm-1 p-5"> <!-- No se como ponerle el fondo que quiero -->
+            <h2> Preguntas </h2> <!--No logre ponerle la fuente que quiero y tampoco centrarlo-->
+            <ul>
+                <li>¿Cual plan es el correcto para mi nogocio?</li>
+                <li>¿Qué resultados voy a tener?</li>
+                <li>¿Tengo que invertir mucho?</li>
+                <li>¿Durante cuanto tiempo tengo que mantener el servicio y porqué?</li>
+                <li>¿Qué necesito para que este servicio me sirva?</li>
+                <li>¿Dónde voy a ver el progreso y evolución?<li>
+                <li>¿Por qué deberia contratar algo así?</li>
+            </ul>
+        </div>
+        <div class="row h-80 bg-danger text-white col-el-4 col-lg-4 col-md-8 col-sm-1 p-5"> <!-- No se como ponerle el fondo que quiero -->
+            <h2> Planes </h2> <!--No logre ponerle la fuente que quiero y tampoco centrarlo-->
+        </div>
         </div>
     </div>
-    <footer>
+    <footer class="p-5">
         <h2> Contacto </h2> 
             <img src="img/logoemail.png"; width="50px"; height="50px">
             <img src="img/logoinstagram.png"; width="50px"; height="50px">
