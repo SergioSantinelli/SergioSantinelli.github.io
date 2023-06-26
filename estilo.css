@@ -1,0 +1,30 @@
+#BarraNav
+{
+    background-color: red !important;
+}
+h1
+{
+    color: black;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: 'Bebas Neue', sans-serif;
+    top:1px;
+    margin: 10px;
+}
+.cuerpo
+{
+    background-image: url(img/fondo1.jpg);
+    background-size: cover;
+}
+h2
+{
+    color: whitei;
+    text-shadow: rgb(67, 15, 131) -5px 5px 17px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    top: 100px;
+    margin: 10px;
+    text-align: center;
+}
